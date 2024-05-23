@@ -16,7 +16,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div id="bg" className="bg-center bg-no-repeat w-[100%] h-[90vh] bg-cover">
+    <div  className=" bg-home bg-center bg-no-repeat w-[100%] h-[90vh] bg-cover">
       <div className="bg-gray-800 bg-opacity-50 h-[90vh]">
         <div className="px-4 py-4 flex justify-between w-[100%] items-center bg-white md:bg-transparent">
           <div>

@@ -7,7 +7,7 @@ export const Partner = () => {
   return (
     <div>
       <section>
-      <div id="partner" className=" bg-center bg-no-repeat  w-[100%] h-[45vh]  bg-cover ">
+      <div  className=" bg-partner bg-center bg-no-repeat  w-[100%] h-[45vh]  bg-cover ">
         <div className=" bg-gray-800 bg-opacity-50 w-[100%]  h-[45vh] flex justify-center items-center flex-col gap-4 py-6 ">
           <div className=" text-center">
             <h1 className=" text-white text-3xl font-bold md:text-6xl lg:text-6xl">
@@ -92,7 +92,7 @@ export const Partner = () => {
     
 
       <section>
-        <div id="yellow" className=" bg-center bg-no-repeat bg-cover flex justify-center items-center flex-col gap-4 py-6">
+        <div className=" bg-about bg-center bg-no-repeat bg-cover flex justify-center items-center flex-col gap-4 py-6">
           <div className=" text-center">
             <h1 className=" text-3xl text-white font-bold md:text-3xl lg:text-4xl">
               About Us
