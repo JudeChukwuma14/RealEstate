@@ -21,3 +21,18 @@
     color: red;
     font-size: 50px;
   }
+
+  #bg{
+    background-image: url("../src/assets/image/Real\ estate.jpg");
+  }
+  #partner{
+    background-image: url("../src//assets/image/becomePartner.jpg");
+  }
+
+  #property{
+    background-image: url("../src//assets/image/addProperty.jpg");
+  }
+
+  #yellow{
+    background-image: url("../src/assets/image/aboutUs.png");
+  }
