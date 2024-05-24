@@ -2,12 +2,19 @@ import React from "react";
 import image1 from "../../assets/image/desc1.1fffd09.png";
 import image2 from "../../assets/image/Money.png";
 import image3 from "../../assets/image/Lady.png";
-
+import background from "../../assets/image/addProperty.jpg"
+import yellow from "../../assets/image/aboutUs.png"
 export const Property = () => {
+  const mybg ={
+    backgroundImage: `url(${background})`
+  }
+  const myAbout ={
+    backgroundImage: `url(${yellow})`
+  }
   return (
     <div>
       <section>
-        <div  className=" bg-property bg-center bg-no-repeat  w-[100%] h-[45vh]  bg-cover ">
+        <div style={mybg}  className="bg-center bg-no-repeat  w-[100%] h-[45vh]  bg-cover ">
           <div className=" bg-gray-800 bg-opacity-50 w-[100%]  h-[45vh] flex justify-center items-center flex-col gap-4 py-6 ">
             <div className=" text-center">
               <h1 className=" text-white text-3xl font-bold md:text-6xl lg:text-6xl">
@@ -90,7 +97,7 @@ export const Property = () => {
       </div>
 
       <section>
-        <div className=" bg-about bg-center bg-no-repeat bg-cover flex justify-center items-center flex-col gap-4 py-6">
+        <div style={myAbout} className="bg-center bg-no-repeat bg-cover flex justify-center items-center flex-col gap-4 py-6">
           <div className=" text-center">
             <h1 className=" text-3xl text-white font-bold md:text-3xl lg:text-4xl">
               About Us

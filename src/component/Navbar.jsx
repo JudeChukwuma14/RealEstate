@@ -1,5 +1,5 @@
 
-import React, { useState } from "react";
+import React, { useState,  } from "react";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { CiMenuFries } from "react-icons/ci";
 import { BiSolidPhoneCall } from "react-icons/bi";
@@ -10,13 +10,15 @@ import whitelog from "../assets/image/Whitelogo.png";
 import { IoSearch } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 import { ImCancelCircle } from "react-icons/im";
-
+import background from "../assets/image/Real estate.jpg"
 export default function Navbar() {
   const phonenumber = "+2349023402939";
   const [open, setOpen] = useState(false);
-
+  const mybg ={
+    backgroundImage: `url(${background})`
+  }
   return (
-    <div  className=" bg-home bg-center bg-no-repeat w-[100%] h-[90vh] bg-cover">
+    <div style={mybg}  className="bg-center bg-no-repeat w-[100%] h-[90vh] bg-cover">
       <div className="bg-gray-800 bg-opacity-50 h-[90vh]">
         <div className="px-4 py-4 flex justify-between w-[100%] items-center bg-white md:bg-transparent">
           <div>
