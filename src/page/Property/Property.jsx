@@ -37,11 +37,11 @@ export const Property = () => {
       <div>
         <div className=" flex flex-col-reverse items-center justify-center px-8 pb-9 lg:flex-row lg:gap-6 ">
           <div>
-            <h1 className=" py-2 font-semibold text-lg lg:text-4xl md:text-3xl">
+            <h1 className=" py-2 font-big font-bold text-lg md:text-2xl">
               Go-to platform for students
             </h1>
 
-            <p className=" text-sm md:text-[25px] md:leading-9 lg:w-[500px]">
+            <p className="text-sm md:text-[18px] md:leading-9 lg:w-[500px]">
               When you list on uhomes.com, your property is advertised on one of
               the most popular rental platform for overseas students. Every
               month, over three millions renters come to us looking for a place
@@ -55,11 +55,11 @@ export const Property = () => {
 
         <div className=" flex flex-col-reverse items-center justify-center px-8 pb-9 lg:flex-row-reverse lg:gap-6 ">
           <div>
-            <h1 className=" py-2 font-semibold text-lg lg:text-4xl md:text-3xl">
+            <h1 className=" py-2 font-bold text-lg md:text-2xl">
               Cheaper and better
             </h1>
 
-            <p className=" text-sm md:text-[25px] md:leading-9 lg:w-[500px]">
+            <p className=" text-sm md:text-[18px] md:leading-9 lg:w-[500px]">
               Just pay $200-400/mo for one property and get much more valuable
               leads.
             </p>
@@ -73,11 +73,11 @@ export const Property = () => {
         </div>
         <div className=" flex flex-col-reverse items-center justify-center px-8 pb-9 lg:flex-row lg:gap-6 ">
           <div>
-            <h1 className=" py-2 font-semibold text-lg lg:text-4xl md:text-3xl">
+            <h1 className=" py-2 font-bold text-lg md:text-2xl">
               Higher efficiency
             </h1>
 
-            <p className=" text-sm md:text-[25px] md:leading-9 lg:w-[500px]">
+            <p className=" text-sm md:text-[18px] md:leading-9 lg:w-[500px]">
               A renter can contact you with our Instant Message Service. And you
               won’t miss any enquiries because we will send you by email at the
               same time. Besides, there are a lot of solutions coming soon: Room

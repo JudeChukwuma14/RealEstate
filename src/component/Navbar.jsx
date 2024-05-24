@@ -33,7 +33,7 @@ export default function Navbar() {
             </div>
           </div>
           <div className={`lg:flex gap-7 items-center ${open ? "flex" : "hidden"}  flex-col md:flex-row md:static absolute top-[51px] w-full h-[40vh] lg:h-0 md:w-auto left-0 rounded-b-xl md:bg-transparent bg-gray-50 `}>
-            <div className="flex gap-4 flex-col lg:flex-row pt-6">
+            <div className="flex gap-4 flex-col lg:flex-row pt-6 lg:p-0">
               <div>
                 <a className="lg:text-white flex flex-col items-center" href={`tel:${phonenumber}`}><FiPhoneCall />
                 <p className="text-[10px]">Contact</p></a>

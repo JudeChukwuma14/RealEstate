@@ -49,7 +49,7 @@ export default function Card() {
       dots: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 3,
+      slidesToShow: 4,
       slidesToScroll: 1,
       initialSlide: 0,
       responsive: [
@@ -81,9 +81,9 @@ export default function Card() {
     };
   return (
     <div>
-      <section className=" bg-slate-100">
+      <section className=" bg-slate-100 py-8 ">
         <div className=" text-center">
-          <h1 className=" pt-7 pb-2 font-bold text-2xl">
+          <h1 className=" text-xl font-bold md:text-3xl lg:text-4xl">
             See what students say
           </h1>
           <p className=" px-3 pt-0 pb-3">

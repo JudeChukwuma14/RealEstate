@@ -100,7 +100,18 @@ export default function Hero() {
           </div>
         </div>
       </section>
-
+      <section className=" bg-slate-100 py-8 ">
+        <div className=" text-center">
+          <h1 className=" pt-7 pb-2 font-bold text-2xl md:text-3xl lg:text-4xl">
+            Most Popular Homes for Students
+          </h1>
+          <p className=" px-3 pt-0 md:text-lg lg:text-xl">
+            Eliminate the inconvenience of arranging your student housing during
+            these prime years.
+          </p>
+        </div>
+        <Menu />
+      </section>
       <section>
         <div className=" text-center">
           <h1 className=" pt-7 pb-2 font-bold text-2xl md:text-3xl lg:text-4xl">
@@ -225,20 +236,6 @@ export default function Hero() {
           </div>
         </div>
       </section>
-
-      <section>
-        <div className=" text-center">
-          <h1 className=" pt-7 pb-2 font-bold text-2xl md:text-3xl lg:text-4xl">
-            Most Popular Homes for Students
-          </h1>
-          <p className=" px-3 pt-0 md:text-lg lg:text-xl">
-            Eliminate the inconvenience of arranging your student housing during
-            these prime years.
-          </p>
-        </div>
-        <Menu />
-      </section>
-
       <section className=" pt-12">
         <div className=" text-center">
           <h1 className=" pt-7 pb-2 font-bold text-3xl md:text-3xl lg:text-4xl">
@@ -349,13 +346,16 @@ export default function Hero() {
             </p>
           </div>
           <div>
-            <NavLink to="/rental-manager" className=" flex justify-center items-center border rounded  py-4 px-5">
+            <NavLink
+              to="/rental-manager"
+              className=" flex justify-center items-center border rounded  py-4 px-5"
+            >
               Add a Property <IoIosArrowForward />
             </NavLink>
           </div>
         </div>
       </section>
-      <Card/>
+      <Card />
     </div>
   );
 }

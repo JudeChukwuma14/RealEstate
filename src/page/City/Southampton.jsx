@@ -16,15 +16,15 @@ export default function Southampton() {
             <img src={image1} className=" w-[100%] h-[100%] object-cover" />
           </div>
           <div className=" px-4">
-            <h1 className=" text-lg font-bold py-3">House</h1>
+            <h1 className=" text-lg font-bold py-3">
+              Vita Student Richmond House
+            </h1>
             <p className=" text-[13px]">
-              6 Miles Street Vauxhall, London, England SW8 1RZ
+              3 Terminus Terrace, Southampton, England SO14 3EU
             </p>
-            <p className=" text-[13px]">
-              Non En-suite • En-suite • Studio • 28 Options
-            </p>
+            <p className=" text-[13px]">Studio • 5 Options</p>
             <h2 className=" text-lg font-bold pt-5">
-              <span className=" text-[14px] font-semibold">From</span> £431
+              <span className=" text-[14px] font-semibold">From</span> £352
               <span className=" text-[14px] font-semibold">/week</span>
             </h2>
           </div>
@@ -35,15 +35,15 @@ export default function Southampton() {
             <img src={image2} className=" w-[100%] h-[100%] object-cover" />
           </div>
           <div className=" px-4">
-            <h1 className=" text-lg font-bold py-3">House</h1>
+            <h1 className=" text-lg font-bold py-3">
+              Vita Student Portswood House
+            </h1>
             <p className=" text-[13px]">
-              6 Miles Street Vauxhall, London, England SW8 1RZ
+              Portswood Road, Southampton, England SO17 2BF
             </p>
-            <p className=" text-[13px]">
-              Non En-suite • En-suite • Studio • 28 Options
-            </p>
+            <p className=" text-[13px]">Studio • 5 Options</p>
             <h2 className=" text-lg font-bold pt-5">
-              <span className=" text-[14px] font-semibold">From</span> £431
+              <span className=" text-[14px] font-semibold">From</span> £386
               <span className=" text-[14px] font-semibold">/week</span>
             </h2>
           </div>
@@ -54,15 +54,13 @@ export default function Southampton() {
             <img src={image3} className=" w-[100%] h-[100%] object-cover" />
           </div>
           <div className=" px-4">
-            <h1 className=" text-lg font-bold py-3">House</h1>
+            <h1 className=" text-lg font-bold py-3">Hampton Square</h1>
             <p className=" text-[13px]">
-              6 Miles Street Vauxhall, London, England SW8 1RZ
+              Hampton Square 2 Mayfield Road, Southampton, England SO17 3SX
             </p>
-            <p className=" text-[13px]">
-              Non En-suite • En-suite • Studio • 28 Options
-            </p>
+            <p className=" text-[13px]">En-suite • Studio • 14 Options</p>
             <h2 className=" text-lg font-bold pt-5">
-              <span className=" text-[14px] font-semibold">From</span> £431
+              <span className=" text-[14px] font-semibold">From</span> £228
               <span className=" text-[14px] font-semibold">/week</span>
             </h2>
           </div>
@@ -73,15 +71,13 @@ export default function Southampton() {
             <img src={image4} className=" w-[100%] h-[100%] object-cover" />
           </div>
           <div className=" px-4">
-            <h1 className=" text-lg font-bold py-3">House</h1>
+            <h1 className=" text-lg font-bold py-3">Bargate House</h1>
             <p className=" text-[13px]">
-              6 Miles Street Vauxhall, London, England SW8 1RZ
+              31-33 High Street, Southampton, England SO14 2DF
             </p>
-            <p className=" text-[13px]">
-              Non En-suite • En-suite • Studio • 28 Options
-            </p>
+            <p className=" text-[13px]">En-suite • Studio • 4 Options</p>
             <h2 className=" text-lg font-bold pt-5">
-              <span className=" text-[14px] font-semibold">From</span> £431
+              <span className=" text-[14px] font-semibold">From</span> £280
               <span className=" text-[14px] font-semibold">/week</span>
             </h2>
           </div>
@@ -92,15 +88,13 @@ export default function Southampton() {
             <img src={image5} className=" w-[100%] h-[100%] object-cover" />
           </div>
           <div className=" px-4">
-            <h1 className=" text-lg font-bold py-3">House</h1>
+            <h1 className=" text-lg font-bold py-3">Brunswick Apartments</h1>
             <p className=" text-[13px]">
-              6 Miles Street Vauxhall, London, England SW8 1RZ
+              11 Brunswick Place, Southampton, England SO15 2TP
             </p>
-            <p className=" text-[13px]">
-              Non En-suite • En-suite • Studio • 28 Options
-            </p>
+            <p className=" text-[13px]">En-suite • Studio • 1B • 11 Options</p>
             <h2 className=" text-lg font-bold pt-5">
-              <span className=" text-[14px] font-semibold">From</span> £431
+              <span className=" text-[14px] font-semibold">From</span> £253
               <span className=" text-[14px] font-semibold">/week</span>
             </h2>
           </div>
@@ -111,15 +105,15 @@ export default function Southampton() {
             <img src={image6} className=" w-[100%] h-[100%] object-cover" />
           </div>
           <div className=" px-4">
-            <h1 className=" text-lg font-bold py-3">House</h1>
+            <h1 className=" text-lg font-bold py-3">Vincent Place</h1>
             <p className=" text-[13px]">
-              6 Miles Street Vauxhall, London, England SW8 1RZ
+              Vincents Walk, Southampton, England SO14 1JY
             </p>
             <p className=" text-[13px]">
-              Non En-suite • En-suite • Studio • 28 Options
+              Non En-suite • En-suite • Studio • 12 Options
             </p>
             <h2 className=" text-lg font-bold pt-5">
-              <span className=" text-[14px] font-semibold">From</span> £431
+              <span className=" text-[14px] font-semibold">From</span> £249
               <span className=" text-[14px] font-semibold">/week</span>
             </h2>
           </div>
@@ -130,15 +124,13 @@ export default function Southampton() {
             <img src={image7} className=" w-[100%] h-[100%] object-cover" />
           </div>
           <div className=" px-4">
-            <h1 className=" text-lg font-bold py-3">House</h1>
+            <h1 className=" text-lg font-bold py-3">Mercury Point</h1>
             <p className=" text-[13px]">
-              6 Miles Street Vauxhall, London, England SW8 1RZ
+              20 Duke Street, Southampton, England SO14 3ET
             </p>
-            <p className=" text-[13px]">
-              Non En-suite • En-suite • Studio • 28 Options
-            </p>
+            <p className=" text-[13px]">En-suite • 1 Option</p>
             <h2 className=" text-lg font-bold pt-5">
-              <span className=" text-[14px] font-semibold">From</span> £431
+              <span className=" text-[14px] font-semibold">From</span> £185
               <span className=" text-[14px] font-semibold">/week</span>
             </h2>
           </div>
@@ -149,15 +141,13 @@ export default function Southampton() {
             <img src={image8} className=" w-[100%] h-[100%] object-cover" />
           </div>
           <div className=" px-4">
-            <h1 className=" text-lg font-bold py-3">House</h1>
+            <h1 className=" text-lg font-bold py-3">CEG Orion Point</h1>
             <p className=" text-[13px]">
-              6 Miles Street Vauxhall, London, England SW8 1RZ
+              Saint Mary's Road, Southampton, England SO14 0GE
             </p>
-            <p className=" text-[13px]">
-              Non En-suite • En-suite • Studio • 28 Options
-            </p>
+            <p className=" text-[13px]">En-suite • Studio • 2 Options</p>
             <h2 className=" text-lg font-bold pt-5">
-              <span className=" text-[14px] font-semibold">From</span> £431
+              <span className=" text-[14px] font-semibold">From</span> £289
               <span className=" text-[14px] font-semibold">/week</span>
             </h2>
           </div>
@@ -165,4 +155,4 @@ export default function Southampton() {
       </div>
     </div>
   );
-};
+}
