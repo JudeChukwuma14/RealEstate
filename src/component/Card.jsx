@@ -26,7 +26,7 @@ const data = [
   },
   {
     img: "https://img.freepik.com/free-photo/successful-dark-skinned-female-student-happy-get-scholarship-clenches-fists-accomplishes-goal_273609-25984.jpg?t=st=1716493688~exp=1716497288~hmac=94f131f0281fe0b7c491908924fc57e6b82bb0f2e57258e757cc441213b30806&w=900",
-    name: "Praise",
+    name: "Praises Neche",
     school: "Ottawa",
     p: "The interface is very user-friendly and intuitive! I love how easy it is to navigate through the property listings.",
   },
